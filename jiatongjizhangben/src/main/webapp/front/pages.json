@@ -1,0 +1,208 @@
+{
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "登录"
+		}
+	},{
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "注册"
+		}
+	},{
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "忘记密码"
+		}
+	},{
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的"
+		}
+	},{
+		"path": "pages/user-info/userinfo",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+
+       ,{
+		"path": "pages/forum/forum-index",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "全部发帖"
+		}
+	},{
+		"path": "pages/forum/forum-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "发帖详情"
+		}
+	},{
+		"path": "pages/forum/forum-my",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的发帖"
+		}
+	},{
+		"path": "pages/forum/forum-add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "发贴(修改/新增)"
+		}
+	}
+	,{
+		"path": "pages/news/list",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "公告信息展示"
+		}
+	},{
+		"path": "pages/news/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "公告信息添加"
+		}
+	},{
+		"path": "pages/news/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "公告信息详情"
+		}
+	}
+	,{
+		"path": "pages/shouruxiangqing/list",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "收入详情展示"
+		}
+	},{
+		"path": "pages/shouruxiangqing/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "收入详情添加"
+		}
+	},{
+		"path": "pages/shouruxiangqing/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "收入详情详情"
+		}
+	}
+	,{
+		"path": "pages/xiaofeixiangqing/list",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "收入详情展示"
+		}
+	},{
+		"path": "pages/xiaofeixiangqing/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "收入详情添加"
+		}
+	},{
+		"path": "pages/xiaofeixiangqing/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "收入详情详情"
+		}
+	}
+	,{
+		"path": "pages/yonghu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户展示"
+		}
+	},{
+		"path": "pages/yonghu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户添加"
+		}
+	},{
+		"path": "pages/yonghu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户详情"
+		}
+	}
+			,{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#4477C5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "家庭记账本",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#FFFFFF",
+		"selectedColor": "#07588D",
+		"borderStyle": "black",
+		"backgroundColor": "#4477C5",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			,{
+				"pagePath": "pages/shouruxiangqing/list",
+				"iconPath": "static/tabs/type.png",
+				"selectedIconPath": "static/tabs/type1.png",
+				"text": "收入详情"
+			}
+			,{
+				"pagePath": "pages/xiaofeixiangqing/list",
+				"iconPath": "static/tabs/type.png",
+				"selectedIconPath": "static/tabs/type1.png",
+				"text": "收入详情"
+			}
+			,{
+			 	"pagePath": "pages/forum/forum-index",
+				"iconPath": "static/tabs/order.png",
+			 	"selectedIconPath": "static/tabs/order1.png",
+				"text": "论坛信息"
+			}
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}

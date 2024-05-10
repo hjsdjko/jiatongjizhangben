@@ -1,0 +1,76 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/forum/forum-index",
+    "pages/forum/forum-detail",
+    "pages/forum/forum-my",
+    "pages/forum/forum-add-or-update",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/shouruxiangqing/list",
+    "pages/shouruxiangqing/add-or-update",
+    "pages/shouruxiangqing/detail",
+    "pages/xiaofeixiangqing/list",
+    "pages/xiaofeixiangqing/add-or-update",
+    "pages/xiaofeixiangqing/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "家庭记账本",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#07588D",
+    "borderStyle": "black",
+    "backgroundColor": "#4477C5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shouruxiangqing/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "收入详情"
+      },
+      {
+        "pagePath": "pages/xiaofeixiangqing/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "收入详情"
+      },
+      {
+        "pagePath": "pages/forum/forum-index",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order1.png",
+        "text": "论坛信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
